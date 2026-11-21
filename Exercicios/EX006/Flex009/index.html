@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible box</title>
+    <style>
+        div#conteiner {
+            background-color: salmon;
+            display: flex;
+            flex-flow: row nowrap;
+        }
+
+        div#itens {
+            background-color: blue;
+            border: 1px solid black;
+            text-align: center;
+            flex-basis: 150px;
+        }   
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div id="itens">A conteudo maior</div>
+        <div id="itens">B</div>
+        <div id="itens">C conteudo muito maior para vermos</div>
+        <div id="itens">D</div>
+        <div id="itens">E Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non amet dolore rerum deleniti at pariatur minus suscipit dicta, sunt numquam sequi voluptas accusamus alias perspiciatis consequatur explicabo iusto quae aliquid.</div>
+        <div id="itens">F</div>
+
+    </div>
+</body>
+</html>
